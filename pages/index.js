@@ -16,22 +16,19 @@ export default function Home() {
       </Head>
 
       <header>
-        <Navigation src="../assets/logo.png" />
+        <Navigation src="../assets/logoxpro.png" />
 
         <h1>
-          A <u>minimalist...</u> stylesheet for HTML elements
+          Tempat <u>Anda</u> menemukan pengalaman terbaik
         </h1>
         <p>
-          <b>No class names, no frameworks,</b> just <em>semantic</em> HTML and{" "}
-          <mark>you're done</mark>.
+          <b>Daftarkan menu resep Anda,</b> kami akan <em>pasarkan, manage</em>{" "}
+          semuanya untuk Anda <mark>gampang bukan!</mark>.
         </p>
         <br />
         <p>
           <a download="mvp.html" href="./mvp.html" target="_blank">
-            <i>Download HTML &nearr;</i>
-          </a>
-          <a download="mvp.css" href="./mvp.css" target="_blank">
-            <b>Download MVP.css (8kb)</b>
+            <i>Pelajari lebih lanjut</i>
           </a>
         </p>
         <br />
