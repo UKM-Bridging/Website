@@ -4,11 +4,10 @@ export default function navigation(props) {
   return (
     <>
       <nav>
-        <a href="https://andybrewer.github.io/mvp/">
+        <a href="#">
           <img alt="Logo" src={props.src} height="70" />
         </a>
         <ul>
-          <li>Home</li>
           <li>
             <a href="#engagement">Engagement</a>
           </li>
