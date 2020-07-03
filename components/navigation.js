@@ -19,7 +19,7 @@ export default function navigation(props) {
             <a href="#analytics">Analytic</a>
           </li>
           <li>
-            <a href="#faq">Juara</a>
+            <a href="#insight">Insight</a>
           </li>
         </ul>
       </nav>

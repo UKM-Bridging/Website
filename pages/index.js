@@ -45,7 +45,7 @@ export default function Home() {
           </article>
         </p>
         <p>
-          <a download="mvp.html" href="./mvp.html" target="_blank">
+          <a download="mvp.html" href="#" target="_blank">
             <i>Learn more</i>
           </a>
         </p>
@@ -116,6 +116,22 @@ export default function Home() {
               <i>"Analytics" brainstorming session with your customers</i>
             </figcaption>
           </figure>
+        </div>
+        <hr />
+        <div id="insight">
+          <header>
+            <h2>Business Insights</h2>
+            <p>
+              No matter who said it, the quote drives home the idea that when
+              you’re designing your product, you should pay attention to
+              people’s needs versus wants. What’s the difference?
+            </p>
+            <p>
+              <a download="mvp.html" href="#" target="_blank">
+                <i>Do more</i>
+              </a>
+            </p>
+          </header>
         </div>
       </main>
     </div>
