@@ -19,53 +19,104 @@ export default function Home() {
         <Navigation src="../assets/logoxpro.png" />
 
         <h1>
-          Tempat <u>Anda</u> menemukan pengalaman terbaik
+          Short, Sweet &amp; Powerful <u>Crafting Creative food bridges</u>
         </h1>
         <p>
-          <b>Daftarkan menu resep Anda,</b> kami akan <em>pasarkan, manage</em>{" "}
-          semuanya untuk Anda <mark>gampang bukan!</mark>.
+          <b>No matter what your marketing initiative</b> or{" "}
+          <em>campaign is</em> – site redesign, branding, online ads, etc.{" "}
+          Writing a creative brief is a smart idea.
         </p>
         <br />
+        <p>
+          <article>
+            <aside>
+              We’ll Answer Does my marketing project need a creative brief?
+            </aside>
+          </article>
+        </p>
+        <p>
+          <article>
+            <aside>What are the elements of a strong creative brief?</aside>
+          </article>
+        </p>
+        <p>
+          <article>
+            <aside>How do I write one?</aside>
+          </article>
+        </p>
         <p>
           <a download="mvp.html" href="./mvp.html" target="_blank">
-            <i>Pelajari lebih lanjut</i>
+            <i>Learn more</i>
           </a>
         </p>
-        <br />
-        <br />
-        <p>
-          <sup>PRO TIP</sup> Add this code to a new HTML file:
-          <br />
-          <br />
-          <code>
-            &lt;link rel="stylesheet" href="https://unpkg.com/mvp.css"&gt;
-          </code>
-        </p>
       </header>
+      <hr />
       <main>
+        <section id="engagement">
+          <blockquote>
+            <img alt="Quote" src="./assets/icon-quote.svg" height="80" />
+            <br />
+            In the “audience first” model, you still need to identify and
+            research a target audience. But then, instead of creating a product,
+            you engage with that audience through content marketing like social
+            media and blog posts.
+            <footer>
+              <img alt="Food bridge" src="./assets/brand.png" height="36" />
+              <br />
+              <br />
+              <i>- Food Bridge team</i>
+            </footer>
+          </blockquote>
+        </section>
         <hr />
-        <section id="favorit">
+        <section id="social">
           <header>
-            <h2>Favorit dan pemenang</h2>
-            <p>Kategori minuman untuk kalangan jajanan sekolah</p>
+            <h2>Simple, reusable contents</h2>
+            <p>For a clean looking design that doesn't get in the way</p>
           </header>
           <aside>
             <img alt="HTML only" src="./assets/html.svg" height="150" />
-            <h3>HTML and You're Done</h3>
+            <h3>Social Media</h3>
             <p>
-              MVP styles your root HTML elements, so you don't need to learn a
-              new CSS framework or naming conventions.
+              In the “audience first” model, you still need to identify and
+              research a target audience. But then, instead of creating a
+              product, you engage with that audience through content marketing
+              like social media and blog posts.
             </p>
+          </aside>
+          <aside>
+            <img alt="HTML only" src="./assets/mobile.svg" height="150" />
+            <h3>Content Marketing</h3>
             <p>
-              <a
-                href="https://www.w3schools.com/TAGS/ref_byfunc.asp"
-                target="_blank"
-              >
-                <em>HTML Guide &nearr;</em>
-              </a>
+              Sharing and curating content from other places is pretty common
+              these days. And the benefit seems obvious: It saves you a lot of
+              time and energy.
+            </p>
+          </aside>
+          <aside>
+            <img alt="HTML only" src="./assets/license.svg" height="150" />
+            <h3>Sharing</h3>
+            <p>
+              But you have to make sure everything you’re sharing online (blog
+              posts, social media updates, images, etc.) reinforces your
+              business values. That’s why it’s smart to come up with content
+              themes.
             </p>
           </aside>
         </section>
+        <hr />
+        <div id="analytics">
+          <header>
+            <h2>A decent Food Bridge in no time</h2>
+            <p>More building and small effort with "set and forget selling".</p>
+          </header>
+          <figure>
+            <img alt="Stock photo" src="./assets/analytics.jpg" />
+            <figcaption>
+              <i>"Analytics" brainstorming session with your customers</i>
+            </figcaption>
+          </figure>
+        </div>
       </main>
     </div>
   );

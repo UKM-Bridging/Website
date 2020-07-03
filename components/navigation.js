@@ -10,13 +10,13 @@ export default function navigation(props) {
         <ul>
           <li>Home</li>
           <li>
-            <a href="#favorit">Favorit</a>
+            <a href="#engagement">Engagement</a>
           </li>
           <li>
-            <a href="#faq">Terbaru</a>
+            <a href="#social">Social</a>
           </li>
           <li>
-            <a href="#faq">Trends</a>
+            <a href="#analytics">Analytic</a>
           </li>
           <li>
             <a href="#faq">Juara</a>
